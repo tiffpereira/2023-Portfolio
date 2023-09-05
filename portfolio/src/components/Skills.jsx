@@ -16,8 +16,8 @@ export default function Skills() {
         <div className='mx-6'>
             <div className='flex flex-col mx-auto justify-center mb-6 lg:flex-row'>
                 <Card
-                className="w-full mb-6 mr-6 rounded-3x lg:w-[45%]"
-                href="#">
+                className="w-full mb-6 mr-6 rounded-3xl lg:w-[45%]"
+                >
                     <h5 className="text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
                         <p className='place-self-center'>
                         Software Development
@@ -128,8 +128,8 @@ export default function Skills() {
                 </Card>
                 {/* DATA ANAlYSIS SECTION  */}
                 <Card
-                className="w-full mb-6 mr-6 rounded-3x lg:w-[45%]"
-                href="#">
+                className="w-full mb-6 mr-6 rounded-3xl lg:w-[45%]"
+                >
                     <h5 className="text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
                         <p className='place-self-center'>
                         Data Analysis
