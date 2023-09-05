@@ -1,17 +1,23 @@
 'use client';
 import { Card } from 'flowbite-react';
 import profilePic from '../assets/portfolioprofilepic.jpg'
+import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri'
 
 export default function AboutMe() {
   return (
     <div>
+        <div className='flex justify-center items-center'>
+            <RiDoubleQuotesL />
+            <h1 className='text-center text-3xl p-2'>THIS WiLL BE A QUOTE</h1>
+            <RiDoubleQuotesR />
+        </div>
         <div className='flex flex-col items-center mt-4 mb-4'>
             <h5 className='tracking-wide text-gray-700'>Get To Know More</h5>
             <h1 className='text-3xl font-bold mt-1 md:text-5xl md:mt-3'>About Me</h1>
         </div>
-        <div className='flex flex-col items-center lg:flex-row lg:mx-auto lg:w-4/5 lg:items-center'>
+        <div className='flex flex-col items-center lg:flex-row lg:mx-auto lg:w-4/5 lg:items-center mx-6'>
             <img 
-            className='w-[40%] rounded-3xl mb-6 md:w-[30%] lg:w-72'
+            className='w-[45%] rounded-3xl mb-6 md:w-[30%] lg:w-72'
             src={profilePic}
             alt='profile picture'/>
             <div className='flex flex-col lg:ml-10'>
