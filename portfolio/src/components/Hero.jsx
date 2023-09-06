@@ -6,7 +6,7 @@ export default function Hero () {
     return (
         <div className='relative'>
             <img 
-            className='w-screen h-screen'
+            className='w-screen h-screen -mt-18'
             src={heroImg}
             alt = 'background image' />
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  flex flex-col items-center w-full'>

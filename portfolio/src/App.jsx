@@ -15,9 +15,16 @@ function App() {
     <>
       <NavBar />
       <Hero />
-      <AboutMe />
-      <Skills />
-      <Projects />
+      <div id='AboutMe'>
+        <AboutMe />
+      </div>
+      <div id='Skills'>
+        <Skills />
+      </div>
+      <div id='Projects'>
+        <Projects />
+      </div>
+      
       <Footer />
       {/* <Sections /> */}
     </>
