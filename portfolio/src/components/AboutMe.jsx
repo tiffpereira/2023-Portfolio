@@ -11,7 +11,7 @@ export default function AboutMe() {
             <h1 className='text-center text-3xl p-2'>THIS WiLL BE A QUOTE</h1>
             <RiDoubleQuotesR />
         </div>
-        <div className='flex flex-col items-center mt-4 mb-4'>
+        <div className='flex flex-col items-center mt-12 mb-16'>
             <h5 className='tracking-wide text-gray-700'>Get To Know More</h5>
             <h1 className='text-3xl font-bold mt-1 md:text-5xl md:mt-3'>About Me</h1>
         </div>
@@ -58,7 +58,7 @@ export default function AboutMe() {
                     </Card>
                 </div>
                 <div className='lg:mx-10'>
-                    <p> Hi my name is Tiffany! I am a Full-Stack Software Engineer with a rich background that spans the healthcare and tech industries. My analytical skills, honed from a Biology degree, have been a cornerstone in my transition to the tech sector, where I excel in creating robust and user-friendly solutions.</p>
+                    <p> Hi my name is Tiffany! I am a Full-Stack Software Engineer with a background that spans the healthcare and tech industries. My analytical skills, honed from a Biology degree, have been a cornerstone in my transition to the tech sector, where I excel in creating robust and user-friendly solutions.</p>
                 
                     <p>Based in Boston, I am a dynamic professional who blends technical proficiency with a knack for analyzing and solving complex problems. Passionate about utilizing technology to not only enhance user experiences but also to provide innovative solutions to real-world problems, I am committed to continuous learning and growth in my journey to make a meaningful impact in the tech industry.</p>
                 </div>

@@ -18,7 +18,7 @@ export default function Projects() {
             <div className=''>
                 <h1 className='text-2xl text-center font-bold mb-5 md:text-3xl md:mt-3'>Software Development</h1>
             </div>
-            <div className='flex flex-col justify-center items-center md:grid md:grid-cols-2 md:gap-4 md:px-4 md:justify-items-center lg:grid-cols-3'>
+            <div className='flex flex-col justify-center items-center gap-10 md:grid md:grid-cols-2 md:gap-4 md:px-4 md:justify-items-center lg:grid-cols-3'>
                 {/* PROJECT ONE */}    
                 <Card className="max-w-sm rounded-3xl">
                 <div className='h-72 w-72 mx-auto'>
@@ -129,7 +129,7 @@ export default function Projects() {
             <div className='mt-14'>
                 <h1 className='text-2xl text-center font-bold mb-5 md:text-3xl md:mt-3'>Data Analysis</h1>
             </div>
-            <div className='flex flex-col justify-center items-center md:grid md:grid-cols-2 md:gap-4 md:px-4 md:justify-items-center lg:grid-cols-3'>
+            <div className='flex flex-col justify-center items-center gap-10 md:grid md:grid-cols-2 md:gap-4 md:px-4 md:justify-items-center lg:grid-cols-3'>
                 {/* PROJECT ONE */}    
                 <Card className="max-w-sm rounded-3xl">
                 <div className='h-72 w-72 mx-auto'>

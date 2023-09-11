@@ -9,20 +9,20 @@ export default function FooterWithLogo() {
     <div className='mt-6'>
         <Footer container>
         <div className="w-full text-center">
-            <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
+            <div className="w-full justify-between flex-row flex sm:items-center ">
             <Footer.Brand
                 alt="Tiffany Pereira Logo"
                 src={logo}
                 className='h-12'/>
-            <Footer.LinkGroup>
+            <Footer.LinkGroup className=''>
                 <Footer.Link href="https://github.com/tiffpereira" target="_blank">
-                    <FaGithub className='w-8 h-8'/>
+                    <FaGithub className='w-8 h-8 m-2'/>
                 </Footer.Link>
                 <Footer.Link href="https://www.linkedin.com/in/tiffanympereira/" target="_blank">
-                    <FaLinkedin className='w-8 h-8'/>
+                    <FaLinkedin className='w-8 h-8 m-2'/>
                 </Footer.Link>
                 <Footer.Link href="mailto:Tiffanympereira@gmail.com" target="_blank">
-                    <MdEmail className='w-8 h-8'/>
+                    <MdEmail className='w-8 h-8 m-2'/>
                 </Footer.Link>
             </Footer.LinkGroup>
             </div>
