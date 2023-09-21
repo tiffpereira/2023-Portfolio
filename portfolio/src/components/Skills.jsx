@@ -8,10 +8,10 @@ import { MdQueryStats } from 'react-icons/md'
 
 export default function Skills() {
   return (
-    <div className='mt-10 pb-10 pt-2 bg-blue-100'>
+    <div className='pb-10'>
         <div className='flex flex-col items-center my-16 pb-2'>
             <h5 className='tracking-wide text-gray-700'>Explore My</h5>
-            <h1 className='text-3xl font-bold mt-1 md:text-5xl md:mt-3'>Skills</h1>
+            <h1 className='text-4xl font-bold mt-1 md:text-5xl md:mt-3'>Skills</h1>
         </div>
         <div className='mx-6'>
             <div className='flex flex-col mx-auto justify-center mb-6 lg:flex-row'>

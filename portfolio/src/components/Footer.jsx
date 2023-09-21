@@ -7,7 +7,7 @@ import { MdEmail } from 'react-icons/md'
 export default function FooterWithLogo() {
   return (
     <div className='mt-6'>
-        <Footer container>
+        <Footer container className='bg-blue-50'>
         <div className="w-full text-center">
             <div className="w-full justify-between flex-row flex sm:items-center ">
             <Footer.Brand

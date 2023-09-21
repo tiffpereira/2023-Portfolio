@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import NavLogo from '../assets/NavBarLogo.png'
-import { Button, Navbar } from 'flowbite-react'
+import { Navbar, Dropdown } from 'flowbite-react'
 'use client'
 import { Link } from 'react-scroll'
+import '../App.css'
 
 export default function NavBar() {
   const [showNavBar, setShowNavBar] = useState(false);
@@ -42,11 +43,17 @@ export default function NavBar() {
           src={NavLogo}
         />
       </Navbar.Brand>
+      
       <div className="flex md:order-2">
-        <Button className="mr-3">
-          Resume
-        </Button>
-        <Navbar.Toggle />
+          <Dropdown label="Download Resume" className="custom-dropdown">
+            <Dropdown.Item href="https://docs.google.com/document/d/1xNr41qzT9P0DleFMmRFYpXZB9aisbdQEMjRJS-P5Y0o/edit?usp=sharing" target="_blank">
+              Software Engineer
+            </Dropdown.Item>
+            <Dropdown.Item href="https://docs.google.com/document/d/1lFyMIauB4nI2VDYPh223xBPRCs-zEZc083E3e7DCYsc/edit?usp=sharing" target="_blank">
+              Data Analyst
+            </Dropdown.Item>
+          </Dropdown>
+        <Navbar.Toggle className='ml-5' />
       </div>
       <Navbar.Collapse>
         <Link to='AboutMe' smooth={true} duration={600} offset={-80} className='cursor-pointer'>
@@ -69,10 +76,8 @@ export default function NavBar() {
             Contact
           </Navbar.Link>
         </Link>
-        
       </Navbar.Collapse>
     </Navbar>
   )
 }
-
 

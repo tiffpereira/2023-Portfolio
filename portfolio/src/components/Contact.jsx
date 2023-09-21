@@ -3,7 +3,7 @@ import { AiFillLinkedin } from 'react-icons/ai'
 
 export default function Skills() {
     return (
-      <div className='mt-10 pb-18 pt-2 bg-blue-100'>
+      <div className='mt-6 pb-20 pt-2'>
           <div className='flex flex-col items-center my-16 pb-2'>
               <h5 className='tracking-wide text-gray-700'>Get In Touch</h5>
               <h1 className='text-3xl font-bold mt-1 md:text-5xl md:mt-3'>Contact Me</h1>

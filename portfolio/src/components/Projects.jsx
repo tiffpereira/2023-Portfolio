@@ -17,8 +17,8 @@ import bacardilanding from '../assets/ProjectsLanding/bacardilanding.png'
 
 export default function Projects() {
       return (
-        <div className='pb-10'>
-            <div className='flex flex-col items-center my-16 pb-2'>
+        <div className='pb-20 bg-blue-100'>
+            <div className='flex flex-col items-center my-16 pb-2 pt-16'>
                 <h5 className='tracking-wide text-gray-700'>Browse My Recent</h5>
                 <h1 className='text-3xl font-bold mt-1 md:text-5xl md:mt-3'>Projects</h1>
             </div>
