@@ -6,12 +6,12 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri'
 export default function AboutMe() {
   return (
     <div>
-        <div className='flex justify-center items-center'>
-            <RiDoubleQuotesL />
-            <h1 className='text-center text-3xl p-2'>THIS WiLL BE A QUOTE</h1>
-            <RiDoubleQuotesR />
+        <div className='flex justify-center items-center my-14 p-4'>
+            <RiDoubleQuotesL className='w-9 h-8 md:w-6'/>
+            <h1 className='text-center text-3xl p-1 text-gray-800'>In every line of code, a story; in every dataset, a revelation.</h1>
+            <RiDoubleQuotesR className='w-9 h-8 md:w-6'/>
         </div>
-        <div className='flex flex-col items-center mt-12 mb-16'>
+        <div className='flex flex-col items-center mt-16 mb-16'>
             <h5 className='tracking-wide text-gray-700'>Get To Know More</h5>
             <h1 className='text-3xl font-bold mt-1 md:text-5xl md:mt-3'>About Me</h1>
         </div>
