@@ -11,6 +11,7 @@ import { BsFiletypeSql } from 'react-icons/bs'
 //landing page image imports
 import tastylanding from '../assets/ProjectsLanding/tastylanding.png'
 import codrlanding from '../assets/ProjectsLanding/codrlanding.png'
+import bacardilanding from '../assets/ProjectsLanding/bacardilanding.png'
 
 
 export default function Projects() {
@@ -26,7 +27,7 @@ export default function Projects() {
             <div className='flex flex-col justify-center items-center gap-10 md:grid md:grid-cols-2 md:gap-4 md:px-4 md:justify-items-center lg:grid-cols-3'>
 
 
-                {/* PROJECT ONE */}    
+                {/* PROJECT ONE - CODR */}    
                 <Card className="max-w-sm rounded-3xl ">
                 
                 <img 
@@ -103,32 +104,50 @@ export default function Projects() {
                 <h1 className='text-2xl text-center font-bold mb-5 md:text-3xl md:mt-3'>Data Analysis</h1>
             </div>
             <div className='flex flex-col justify-center items-center gap-10 md:grid md:grid-cols-2 md:gap-4 md:px-4 md:justify-items-center lg:grid-cols-3'>
-                {/* PROJECT ONE */}    
-                <Card className="max-w-sm rounded-3xl">
-                <div className='h-72 w-72 mx-auto'>
-                    <Carousel>
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                    </Carousel>
-                </div>
+               
+                {/* PROJECT ONE - BACARDI */}    
+                 <Card className="max-w-sm rounded-3xl ">
+                
+                <img 
+                className='h-56 w-76 mx-auto m-2'
+                alt="Meaningful alt text for an image that is not purely decorative"
+                src={bacardilanding}/>
+
+                    <h5 className="flex justify-between text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <p>Bacardi's Launch </p>
+                        <div className='flex flex-row'>
+                            <FaFileExcel className='w-8 h-8'/>
+                            <BsFiletypeSql className='w-8 h-8'/>
+                        </div>
+                    </h5>
+
+                    <p className="font-normal text-gray-700 dark:text-gray-400">
+                        <p>Utilized SQL for data cleaning and analysis of Iowa liquor sales, and leveraged Excel to create visualizations and an interactive dashboard, identifying growth opportunities and launch plan for Bacardi in the market.</p>
+                    </p>
+                    <div className='flex flex-row justify-center space-x-5'>
+                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+                            <Button color="gray" pill>
+                                <FaGithub className='w-5 h-5 mr-2'/>
+                                <p> Github </p>
+                            </Button>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1NMxiGsWXz1JJaQQ73WVqlajO8ne6dbQz/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <Button color="gray" pill >
+                                <AiOutlineGlobal className='w-5 h-5 mr-2'/>
+                                <p> Live Demo </p>
+                            </Button>
+                        </a>
+                    </div>
+                </Card>
+
+                 {/* PROJECT TWO - KICKSTARTER */}    
+                 <Card className="max-w-sm rounded-3xl ">
+                
+                <img 
+                className='h-60 w-76 mx-auto m-2'
+                alt="Meaningful alt text for an image that is not purely decorative"
+                src={tastylanding}/>
+
                     <h5 className="flex justify-between text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         <p>Kickstarter </p>
                         <div className='flex flex-row'>
@@ -138,57 +157,6 @@ export default function Projects() {
                     </h5>
                     <p className="font-normal text-gray-700 dark:text-gray-400">
                         <p>Used pivot tables, vlookups, and statistical analysis to analyze key success factors for a campaign to rank in the top 10%, and presented data-driven strategies through a PowerPoint presentation.</p>
-                    </p>
-                    <div className='flex flex-row justify-center space-x-5'>
-                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
-                            <Button color="gray" pill>
-                                <FaGithub className='w-5 h-5 mr-2'/>
-                                <p> Github </p>
-                            </Button>
-                        </a>
-                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
-                            <Button color="gray" pill >
-                                <AiOutlineGlobal className='w-5 h-5 mr-2'/>
-                                <p> Live Demo </p>
-                            </Button>
-                        </a>
-                    </div>
-                </Card>
-                {/* PROJECT TWO */}    
-                <Card className="max-w-sm rounded-3xl">
-                <div className='h-72 w-72 mx-auto'>
-                    <Carousel>
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                        <img
-                            alt="..."
-                            src={pic}
-                        />
-                    </Carousel>
-                </div>
-                    <h5 className="flex justify-between text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        <p>Iowa Liquor Sales </p>
-                        <div className='flex flex-row'>
-                            <FaFileExcel className='w-8 h-8'/>
-                            <BsFiletypeSql className='w-8 h-8'/>
-                        </div>
-                    </h5>
-                    <p className="font-normal text-gray-700 dark:text-gray-400">
-                        <p>Utilized SQL for data cleaning and analysis of Iowa liquor sales, and leveraged Excel to create visualizations and an interactive dashboard, identifying growth opportunities for Bacardi in the market.</p>
                     </p>
                     <div className='flex flex-row justify-center space-x-5'>
                         <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
