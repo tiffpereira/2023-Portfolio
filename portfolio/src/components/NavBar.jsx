@@ -64,9 +64,12 @@ export default function NavBar() {
             Portfolio
           </Navbar.Link>
         </Link>
-        <Navbar.Link>
-          Contact
-        </Navbar.Link>
+        <Link to='Contact' smooth={true} duration={600} offset={-70} className='cursor-pointer'>
+          <Navbar.Link>
+            Contact
+          </Navbar.Link>
+        </Link>
+        
       </Navbar.Collapse>
     </Navbar>
   )

@@ -8,8 +8,8 @@ import { MdQueryStats } from 'react-icons/md'
 
 export default function Skills() {
   return (
-    <div className='mt-10 pt-2 bg-blue-100'>
-        <div className='flex flex-col items-center mt-4 mb-4 pb-2'>
+    <div className='mt-10 pb-10 pt-2 bg-blue-100'>
+        <div className='flex flex-col items-center my-16 pb-2'>
             <h5 className='tracking-wide text-gray-700'>Explore My</h5>
             <h1 className='text-3xl font-bold mt-1 md:text-5xl md:mt-3'>Skills</h1>
         </div>
@@ -18,12 +18,12 @@ export default function Skills() {
                 <Card
                 className="w-full mb-6 mr-6 rounded-3xl lg:w-[45%]"
                 >
-                    <h5 className="text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
-                        <p className='place-self-center'>
+                    <h5 className="text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white flex justify-center items-center">
+                        <p className='place-self-center -mt-3'>
                         Software Development
                         </p>
                     </h5>
-                    <div className='grid grid-cols-3 gap-6 w-full -ml-3 md:justify-items-center md:-ml-11'>
+                    <div className='grid grid-cols-3 gap-6 w-full mt-3 -ml-3 md:justify-items-center md:-ml-11'>
                         <div className='w-[30%] flex flex-row items-center'>
                             <div>
                             <FaHtml5 className='w-9 h-9 mr-2'/>
@@ -130,7 +130,7 @@ export default function Skills() {
                 <Card
                 className="w-full mb-6 mr-6 rounded-3xl lg:w-[45%]"
                 >
-                    <h5 className="text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+                    <h5 className="text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white flex justify-center items-center">
                         <p className='place-self-center'>
                         Data Analysis
                         </p>

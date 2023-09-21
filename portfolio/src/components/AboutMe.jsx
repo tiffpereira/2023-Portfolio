@@ -5,7 +5,7 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri'
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className='pb-12'>
         <div className='flex justify-center items-center my-14 p-4'>
             <RiDoubleQuotesL className='w-9 h-8 md:w-6'/>
             <h1 className='text-center text-3xl p-1 text-gray-800'>In every line of code, a story; in every dataset, a revelation.</h1>
@@ -58,7 +58,7 @@ export default function AboutMe() {
                     </Card>
                 </div>
                 <div className='lg:mx-10'>
-                    <p> Hi my name is Tiffany! I am a Full-Stack Software Engineer with a background that spans the healthcare and tech industries. My analytical skills, honed from a Biology degree, have been a cornerstone in my transition to the tech sector, where I excel in creating robust and user-friendly solutions.</p>
+                    <p className='mb-4'> Hi my name is Tiffany! I am a Full-Stack Software Engineer with a background that spans the healthcare and tech industries. My analytical skills, honed from a Biology degree, have been a cornerstone in my transition to the tech sector, where I excel in creating robust and user-friendly solutions.</p>
                 
                     <p>Based in Boston, I am a dynamic professional who blends technical proficiency with a knack for analyzing and solving complex problems. Passionate about utilizing technology to not only enhance user experiences but also to provide innovative solutions to real-world problems, I am committed to continuous learning and growth in my journey to make a meaningful impact in the tech industry.</p>
                 </div>

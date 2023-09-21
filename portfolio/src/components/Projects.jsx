@@ -7,6 +7,7 @@ import { BiLogoHtml5, BiLogoReact, BiLogoJavascript } from 'react-icons/bi'
 import { FaCss3Alt, FaFilePowerpoint, FaFileExcel } from 'react-icons/fa'
 import { SiSequelize } from 'react-icons/si'
 import { BsFiletypeSql } from 'react-icons/bs'
+import { HiOutlinePresentationChartLine } from 'react-icons/hi'
 
 //landing page image imports
 import tastylanding from '../assets/ProjectsLanding/tastylanding.png'
@@ -16,13 +17,13 @@ import bacardilanding from '../assets/ProjectsLanding/bacardilanding.png'
 
 export default function Projects() {
       return (
-        <div>
-            <div className='flex flex-col items-center mt-4 mb-4 pb-2'>
+        <div className='pb-10'>
+            <div className='flex flex-col items-center my-16 pb-2'>
                 <h5 className='tracking-wide text-gray-700'>Browse My Recent</h5>
                 <h1 className='text-3xl font-bold mt-1 md:text-5xl md:mt-3'>Projects</h1>
             </div>
             <div className=''>
-                <h1 className='text-2xl text-center font-bold mb-5 md:text-3xl md:mt-3'>Software Development</h1>
+                <h1 className='text-2xl text-center font-bold mb-8 md:text-3xl md:mt-3'>Software Development</h1>
             </div>
             <div className='flex flex-col justify-center items-center gap-10 md:grid md:grid-cols-2 md:gap-4 md:px-4 md:justify-items-center lg:grid-cols-3'>
 
@@ -101,7 +102,7 @@ export default function Projects() {
 
 {/* DATA ANALYSIS PROJECTS */}
             <div className='mt-14'>
-                <h1 className='text-2xl text-center font-bold mb-5 md:text-3xl md:mt-3'>Data Analysis</h1>
+                <h1 className='text-2xl text-center font-bold mb-8 md:text-3xl md:mt-3'>Data Analysis</h1>
             </div>
             <div className='flex flex-col justify-center items-center gap-10 md:grid md:grid-cols-2 md:gap-4 md:px-4 md:justify-items-center lg:grid-cols-3'>
                
@@ -125,7 +126,7 @@ export default function Projects() {
                         <p>Utilized SQL for data cleaning and analysis of Iowa liquor sales, and leveraged Excel to create visualizations and an interactive dashboard, identifying growth opportunities and launch plan for Bacardi in the market.</p>
                     </p>
                     <div className='flex flex-row justify-center space-x-5'>
-                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/tiffpereira/BacardiLaunch-Queries" target="_blank" rel="noopener noreferrer">
                             <Button color="gray" pill>
                                 <FaGithub className='w-5 h-5 mr-2'/>
                                 <p> Github </p>
@@ -133,8 +134,8 @@ export default function Projects() {
                         </a>
                         <a href="https://drive.google.com/file/d/1NMxiGsWXz1JJaQQ73WVqlajO8ne6dbQz/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <Button color="gray" pill >
-                                <AiOutlineGlobal className='w-5 h-5 mr-2'/>
-                                <p> Live Demo </p>
+                                <HiOutlinePresentationChartLine className='w-5 h-5 mr-2'/>
+                                <p> Presentation </p>
                             </Button>
                         </a>
                     </div>
@@ -167,8 +168,8 @@ export default function Projects() {
                         </a>
                         <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
                             <Button color="gray" pill >
-                                <AiOutlineGlobal className='w-5 h-5 mr-2'/>
-                                <p> Live Demo </p>
+                                <HiOutlinePresentationChartLine className='w-5 h-5 mr-2'/>
+                                <p> Presentation </p>
                             </Button>
                         </a>
                     </div>
