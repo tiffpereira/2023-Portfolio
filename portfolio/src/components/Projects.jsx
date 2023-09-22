@@ -13,6 +13,7 @@ import { HiOutlinePresentationChartLine } from 'react-icons/hi'
 import tastylanding from '../assets/ProjectsLanding/tastylanding.png'
 import codrlanding from '../assets/ProjectsLanding/codrlanding.png'
 import bacardilanding from '../assets/ProjectsLanding/bacardilanding.png'
+import kickstarterlanding from '../assets/ProjectsLanding/kickstarterlanding.png'
 
 
 export default function Projects() {
@@ -145,9 +146,9 @@ export default function Projects() {
                  <Card className="max-w-sm rounded-3xl ">
                 
                 <img 
-                className='h-60 w-76 mx-auto m-2'
+                className='h-56 w-76 mx-auto m-2'
                 alt="Meaningful alt text for an image that is not purely decorative"
-                src={tastylanding}/>
+                src={kickstarterlanding}/>
 
                     <h5 className="flex justify-between text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         <p>Kickstarter </p>
@@ -160,13 +161,7 @@ export default function Projects() {
                         <p>Used pivot tables, vlookups, and statistical analysis to analyze key success factors for a campaign to rank in the top 10%, and presented data-driven strategies through a PowerPoint presentation.</p>
                     </p>
                     <div className='flex flex-row justify-center space-x-5'>
-                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
-                            <Button color="gray" pill>
-                                <FaGithub className='w-5 h-5 mr-2'/>
-                                <p> Github </p>
-                            </Button>
-                        </a>
-                        <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1tXVoiM0gSFIN1EYeMcOGGDycTkGeRtEX/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <Button color="gray" pill >
                                 <HiOutlinePresentationChartLine className='w-5 h-5 mr-2'/>
                                 <p> Presentation </p>
